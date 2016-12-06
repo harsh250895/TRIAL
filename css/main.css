@@ -108,7 +108,7 @@ h1 {
 
 h2 {
 	font-weight: 300;
-	color: #444;
+	color: #FFF;
 	font-size: 55px;
 	text-transform: uppercase;
 	text-align: center;
@@ -199,7 +199,7 @@ header nav ul li a {
 #image {
 	height: 580px;
 	padding-top: 1px;
-	background: #e8eced url('../images/product.jpg') no-repeat center;
+	background: #e8eced url('../img/product.jpg') no-repeat center;
 }
 
 #image h2 {
@@ -219,13 +219,13 @@ header nav ul li a {
 }
 
 #features ul li.feature-1 {
-	background: url('../images/') no-repeat top center;
+	background: url('../img/') no-repeat top center;
 }
 #features ul li.feature-2 {
-	background: url('../images/') no-repeat top center;
+	background: url('../img/') no-repeat top center;
 }
 #features ul li.feature-3 {
-	background: url('../images/') no-repeat top center;
+	background: url('../img/') no-repeat top center;
 }
  
 footer {
