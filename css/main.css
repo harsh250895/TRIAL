@@ -152,12 +152,6 @@ strong {
 	font-weight: bold;
 }
 
-small {
-	font-size: 13px;
-	color: #777;
-	font-style: italic;
-}
-
 .clear {
 	clear:both;
 	}
@@ -247,7 +241,7 @@ footer {
 
 #footer-2 ul {
 	width: 150px;
-	float: left;
+	float: right;
 	margin-left: 20px;
 }
 
