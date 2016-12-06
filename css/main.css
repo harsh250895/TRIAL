@@ -212,20 +212,20 @@ header nav ul li a {
 
 #features ul li {
 	width: 300px;
-	padding-top: 140px;
+	padding-top: 100px;
 	float: left;
 	margin-right: 10px;
 	text-align: center;
 }
 
 #features ul li.feature-1 {
-	background: url('../img/') no-repeat top center;
+	background: url('../img/design-color_compass.png') no-repeat top center;
 }
 #features ul li.feature-2 {
-	background: url('../img/') no-repeat top center;
+	background: url('../img/design-color_magnet.png') no-repeat top center;
 }
 #features ul li.feature-3 {
-	background: url('../img/') no-repeat top center;
+	background: url('../img/design-color_mobile-design.png') no-repeat top center;
 }
  
 footer {
