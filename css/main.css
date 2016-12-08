@@ -99,11 +99,10 @@ p {
 }
 
 h1 {
-	font-family: 'Crete Round', serif;
-	font-weight: bold;
-	color: #444;
-	font-size: 45px;
-	margin-bottom: 20px;
+	height: 50px;
+	margin-left:45px;
+	width:300px;
+        background : url('../img/cubix.png') no-repeat;
 }
 
 h2 {
@@ -131,8 +130,8 @@ h5 {
 }
 
 a {
-	text-decoration: none;
 	color: #444;
+	text-decoration:none;
 }
 
 a:hover {
@@ -146,18 +145,20 @@ strong {
 .clear {
 	clear:both;
 	}
-.wrapper {
+#wrapper {
 	margin: 0 auto;
 	padding: 0 10px;
-	width: 970px;
+	width: 960px;
 }
 header {
-	height: 120px;
+	height: 80px;
 }
 
 header h1 {
 	float: left;
-	margin-top: 32px;
+	margin-top: 15px;
+	margin-left: 45px;
+	line-height: 1.8;
 }
 
 header h1 .color {
@@ -166,12 +167,14 @@ header h1 .color {
 
 header nav {
 	float: right;
+	width:360px;
 }
 
 header nav ul li {
 	float: left;
 	display: inline-block;
-	margin-top: 50px;
+	margin-top: 0px;
+	line-height: 3.5;
 }
 
 header nav ul li a {
@@ -179,10 +182,18 @@ header nav ul li a {
 	text-transform: uppercase;
 	font-weight: bold;
 	display: block;
-	margin-right: 20px;
+	margin-right: 10px;
 }
+
+#logo {
+	background : url('../img/cubix.png') no-repeat center;
+	}
+#content {
+	height:700px;
+	background:#F8FFF2;
+	}
 #image {
-	height: 580px;
+	height:380px;
 	padding-top: 1px;
 	background: #e8eced url('../img/product.jpg') no-repeat center;
 }
@@ -192,14 +203,14 @@ header nav ul li a {
 }
 
 #features ul {
-	margin: 80px 0;
+	margin: 40px 0;
 }
 
 #features ul li {
-	width: 300px;
-	padding-top: 100px;
+	width: 260px;
+	padding-top: 80px;
 	float: left;
-	margin-right: 10px;
+	margin-right: 40px;
 	text-align: center;
 }
 
@@ -215,25 +226,28 @@ header nav ul li a {
  
 footer {
 	height:120px;
-	padding: 60px 0;
+	padding: 30px 0;
 	background-color: #e8eced;
 }
 
 #footer-1 {
 	width: 380px;
 	float: left;
-	margin-top: 10px;
+	margin-top: 4px;
+	margin-left: 45px;
 }
 
 #footer-2 {
-	width: 520px;
+	width: 260px;
 	float: right;
+	margin-top: 0px;
 }
 
 #footer-2 ul {
 	width: 150px;
 	float: right;
 	margin-left: 20px;
+	margin-top: 0px;
 }
 
 #footer-2 ul li {
