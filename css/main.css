@@ -188,6 +188,10 @@ strong {
 	width: 86px;
 	background : url('../img/cubix.png') no-repeat center;
 	}
+#img a{
+	height:86px;
+	width:86px;
+	}
 #image {
 	height:366px;
 	padding-left: 31px;
