@@ -130,9 +130,13 @@ h5 {
 	text-transform: uppercase;
 }
 
-#menu,#footer-2 a:hover {
+#menu a:hover {
 	color: #02b8dd;
-}
+	}	
+
+#footer-2 a:hover {
+	color: #02b8dd;
+	}
 
 strong {
 	font-weight: bold;
@@ -172,6 +176,7 @@ strong {
 	text-transform: uppercase;
 	font-weight: bold;
 	text-decoration:none;
+	padding: 5px;
 }
 #logo{
 	width: 367px;
@@ -259,7 +264,7 @@ strong {
 	}
 #footer-2 a{
 	color:#777;
-	padding:5px;
+	padding: 2px;
 	text-decoration:none;
 	}
 
