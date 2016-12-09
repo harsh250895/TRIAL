@@ -225,9 +225,15 @@ strong {
 }
 
 #footer-1 {
+	height: 41px;
+	line-height: 3;
 	width: 367px;
 	float: left;
 }
+
+#footer-1 p{
+	padding-left:31px;
+	}	
 
 #footer-2 {
 	line-height: 3;
