@@ -90,6 +90,7 @@ textarea {
 body {
 	background-color: #fff;
 	color: #777;
+	margin:8px;
 	font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
@@ -111,7 +112,6 @@ h2 {
 	font-size: 55px;
 	text-transform: uppercase;
 	text-align: center;
-	margin-bottom: 20px;
 }
 
 h4 {
@@ -119,7 +119,7 @@ h4 {
 	color: #444;
 	font-weight: bold;
 	text-transform: uppercase;
-	margin-bottom: 20px;
+	padding-top: 20px;
 }
 
 h5 {
@@ -129,12 +129,7 @@ h5 {
 	text-transform: uppercase;
 }
 
-a {
-	color: #444;
-	text-decoration:none;
-}
-
-a:hover {
+#menu a:hover {
 	color: #02b8dd;
 }
 
@@ -146,85 +141,82 @@ strong {
 	clear:both;
 	}
 #wrapper {
-	margin: 0 auto;
-	padding: 0 10px;
+	margin-left:auto;
+	margin-right:auto;
 	width: 960px;
+	height: 593px;
 }
-header {
-	height: 80px;
+#header {
+	height: 86px;
+	line-height: 86px;
 }
 
-header h1 {
+#menu {
 	float: left;
-	margin-top: 15px;
-	margin-left: 45px;
-	line-height: 1.8;
+	text-align: right;
+	width:562px;
+	padding-right: 31px;
 }
 
-header h1 .color {
-	color: #02b8dd;
+#menu ul{
+	margin: 0px;
+	padding: 0px;
+	}
+#menu li {
+	display: inline;
 }
 
-header nav {
-	float: right;
-	width:360px;
-}
-
-header nav ul li {
-	float: left;
-	display: inline-block;
-	margin-top: 0px;
-	line-height: 3.5;
-}
-
-header nav ul li a {
+#menu a {
 	color: #444;
 	text-transform: uppercase;
 	font-weight: bold;
-	display: block;
-	margin-right: 10px;
+	text-decoration:none;
 }
-
-#logo {
+#logo{
+	width: 367px;
+	float: left;
+	}
+	
+#img {
+	height: 86px;
+	width: 86px;
 	background : url('../img/cubix.png') no-repeat center;
 	}
-#content {
-	height:700px;
-	background:#F8FFF2;
-	}
 #image {
-	height:380px;
-	padding-top: 1px;
+	height:366px;
+	padding-left: 31px;
+	padding-right: 31px;
+	line-height: 366px;
 	background: #e8eced url('../img/product.jpg') no-repeat center;
 }
 
-#image h2 {
-	margin: 180px 0 40px 0;
+#features {
+	height: 118px;;
 }
 
-#features ul {
-	margin: 40px 0;
-}
-
-#features ul li {
-	width: 260px;
-	padding-top: 80px;
+#feature-1 {
+	width: 320px;
 	float: left;
-	margin-right: 40px;
 	text-align: center;
-}
-
-#features ul li.feature-1 {
+	margin-top: 10px;
 	background: url('../img/design-color_compass.png') no-repeat top center;
 }
-#features ul li.feature-2 {
+#feature-2 {
+	width: 320px;
+	float: left;
+	text-align: center;
+	margin-top: 10px;
 	background: url('../img/design-color_magnet.png') no-repeat top center;
 }
-#features ul li.feature-3 {
+#feature-3 {
+	width: 320px;
+	float: left;
+	text-align: center;
+	margin-top: 10px;
 	background: url('../img/design-color_mobile-design.png') no-repeat top center;
 }
  
-footer {
+#footer {
 	height:120px;
 	padding: 30px 0;
 	background-color: #e8eced;
