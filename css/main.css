@@ -116,6 +116,7 @@ h2 {
 
 h4 {
 	font-size: 24px;
+	height:6px;
 	color: #444;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -129,7 +130,7 @@ h5 {
 	text-transform: uppercase;
 }
 
-#menu a:hover {
+#menu,#footer-2 a:hover {
 	color: #02b8dd;
 }
 
@@ -162,7 +163,7 @@ strong {
 	margin: 0px;
 	padding: 0px;
 	}
-#menu li {
+#menu li{
 	display: inline;
 }
 
@@ -191,11 +192,12 @@ strong {
 }
 
 #features {
-	height: 118px;;
+	height: 100px;
 }
 
 #feature-1 {
 	width: 320px;
+	height: 90px;
 	float: left;
 	text-align: center;
 	margin-top: 10px;
@@ -203,6 +205,7 @@ strong {
 }
 #feature-2 {
 	width: 320px;
+	height: 90px;
 	float: left;
 	text-align: center;
 	margin-top: 10px;
@@ -210,41 +213,49 @@ strong {
 }
 #feature-3 {
 	width: 320px;
-	float: left;
+	float: left; 90px;
 	text-align: center;
 	margin-top: 10px;
 	background: url('../img/design-color_mobile-design.png') no-repeat top center;
 }
  
 #footer {
-	height:120px;
-	padding: 30px 0;
+	height:41px;
 	background-color: #e8eced;
 }
 
 #footer-1 {
-	width: 380px;
+	width: 367px;
 	float: left;
-	margin-top: 4px;
-	margin-left: 45px;
 }
 
 #footer-2 {
-	width: 260px;
-	float: right;
-	margin-top: 0px;
-}
-
-#footer-2 ul {
-	width: 150px;
-	float: right;
-	margin-left: 20px;
-	margin-top: 0px;
-}
-
-#footer-2 ul li {
-	margin: 10px 0;
-}
+	line-height: 3;
+	float: left;
+	text-align: right;
+	width: 562px;
+	padding-right: 31px;
+	}
+#footer-2 ul{
+	margin: 0px;
+	padding: 0px;
+	}
+#footer-2 li{
+	display:inline;
+	}
+#footer h5{
+	font-size: 15px;
+	color: #444;
+        font-weight: bold;
+	text-transform: uppercase;
+	display: inline;
+	padding: 10px;
+	}
+#footer-2 a{
+	color:#777;
+	padding:5px;
+	text-decoration:none;
+	}
 
 /* ==========================================================================
    Helper classes
