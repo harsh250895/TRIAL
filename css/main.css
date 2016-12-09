@@ -235,13 +235,13 @@ strong {
 
 #footer-1 {
 	height: 41px;
-	line-height: 3;
 	width: 367px;
 	float: left;
 }
 
 #footer-1 p{
 	padding-left:31px;
+	line-height: 1;
 	}	
 
 #footer-2 {
