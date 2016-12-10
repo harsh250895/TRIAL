@@ -113,7 +113,14 @@ h2 {
 	text-transform: uppercase;
 	text-align: center;
 }
-
+h3 {
+	font-size:24px;
+	height:6px;
+	color: #FFF;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-right:31px;
+}
 h4 {
 	font-size: 24px;
 	height:6px;
@@ -192,12 +199,92 @@ strong {
 	height:86px;
 	width:86px;
 	}
+
 #image {
+	overflow:hidden;
+	width:960px;
 	height:366px;
-	padding-left: 31px;
-	padding-right: 31px;
+	//padding-left: 31px;
+	//padding-right: 31px;
 	line-height: 366px;
-	background: #e8eced url('../img/product.jpg') no-repeat center;
+	background: #e8eced;
+	}
+#image figure div{
+	width:20%;
+	height:366px;
+	float:left;
+	//padding-left: 31px;
+	//padding-right: 31px;
+	}
+#image figure img{
+	width:960px;
+	float:left;
+	height:366px;
+	}
+#image figure {
+	position:relative;
+	width: 4800px;
+	height:366px;
+	margin:0px;
+	left:0px;
+	animation: 60s slidy infinite;
+	}
+
+@keyframes slidy{
+	0%{
+		left:0%;
+		}	
+	10%{
+		left:0%;
+		}
+	12%{
+		left:-100%;
+		}
+	22%{
+		left:-100%;
+		}
+	24%{
+		left: -200%;
+		}
+	34%{
+		left: -200%;
+		}
+	36%{
+		left: -300%;
+		}
+	46%{
+		left: -300%;
+		}
+	48%{
+		left: -400%;
+		}
+	58%{
+		left: -400%;
+		}
+	60%{
+		left: -300%;
+		}
+	70%{
+		left: -300%;
+		}
+	72%{
+		left: -200%;
+		}
+	82%{
+		left: -200%;
+		}
+	84%{
+		left: -100%;
+		}
+	94%{
+		left: -100%;
+		}
+	96%{
+		left:0%;
+		}
+	100%{
+		left:0%;
+		}
 }
 
 #features {
@@ -231,6 +318,8 @@ strong {
 #back-1 {
 	backface-visibility:hidden;
 	position:absolute;
+	padding-right:31px;
+	padding-left:31px;
 	transform:rotateY(180deg);
 	
 	}
@@ -260,6 +349,8 @@ strong {
 #back-2 {
 	backface-visibility:hidden;
 	position:absolute;
+	padding-right:31px;
+	padding-left:31px;
 	transform:rotateY(180deg);
 	}
 #feature-2:hover{
@@ -290,6 +381,8 @@ strong {
 #back-3 {
 	backface-visibility:hidden;
 	position:absolute;
+	padding-right:31px;
+	padding-left:31px;
 	transform:rotateY(180deg);
 	}
 #feature-3:hover{
@@ -309,7 +402,9 @@ strong {
 
 #footer-1 p{
 	padding-left:31px;
-	line-height: 1;
+	line-height: 3;
+	height:40px;
+	margin:0px;
 	}	
 
 #footer-2 {
