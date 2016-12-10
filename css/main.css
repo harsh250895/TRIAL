@@ -220,14 +220,21 @@ strong {
 	position:absolute;
 	width:320px;
 	height: 90px;
+	pointer-events:none;
 	background: url('../img/design-color_compass.png') no-repeat top center;
 }
 
-#back-1 {
-	transform:rotateY(180deg);	
+#back-1 p{
+	color:#444;
 	}
 
-#feature-1:hover{
+#back-1 {
+	backface-visibility:hidden;
+	position:absolute;
+	transform:rotateY(180deg);
+	
+	}
+#feature-1:hover,#back-1{
 	transform:rotateY(180deg);
 	}
 #feature-2 {
@@ -247,7 +254,12 @@ strong {
 	height:90px;
 	background: url('../img/design-color_magnet.png') no-repeat top center;
 }
+#back-2 p {
+	color:#444;
+	}
 #back-2 {
+	backface-visibility:hidden;
+	position:absolute;
 	transform:rotateY(180deg);
 	}
 #feature-2:hover{
@@ -259,7 +271,8 @@ strong {
         transition: all 0.6s ease;
 	transform-style: preserve-3d;
 	width: 320px;
-	float: left; 90px;
+	float: left;
+	height:90px;
 	text-align: center;
 	margin-top: 10px;
 	}
@@ -271,11 +284,16 @@ strong {
 	background: url('../img/design-color_mobile-design.png') no-repeat top center;
 }
 
+#back-3 p {
+	color: #444;
+	}
 #back-3 {
+	backface-visibility:hidden;
+	position:absolute;
 	transform:rotateY(180deg);
 	}
 #feature-3:hover{
-	transfor:rotateY(180deg);
+	transform:rotateY(180deg);
 	}
  
 #footer {
