@@ -195,13 +195,19 @@ figure{
 #logo{
 	width: 367px;
 	float: left;
+	height:86px;
 	//overflow:hidden;
 	}
+#logo a {
+	width:86px;
+	height:86px;
+	}
+
 	
 #img {
 	height: 86px;
 	width: 86px;
-	background: url('../img/cubix.png') no-repeat center;
+	background: url('../img/cubix.png')no-repeat center;
 	position:relative;
 	//overflow:hidden;
 	}
@@ -221,10 +227,6 @@ figcaption {
 	left:87px;
 	color:#02b8dd;
 }
-#logo a{
-	height:86px;
-	width:86px;
-	}
 
 #image {
 	overflow:hidden;
