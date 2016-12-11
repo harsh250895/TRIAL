@@ -188,17 +188,40 @@ strong {
 	text-decoration:none;
 	padding: 5px;
 }
+figure{
+	width: 86px;
+	height: 86px;
+	}
 #logo{
 	width: 367px;
 	float: left;
+	//overflow:hidden;
 	}
 	
 #img {
 	height: 86px;
 	width: 86px;
-	background : url('../img/cubix.png') no-repeat center;
+	background: url('../img/cubix.png') no-repeat center;
+	position:relative;
+	//overflow:hidden;
 	}
-#img a{
+figcaption {
+	font-size:22px;
+	color: #444;
+	position:absolute;
+	text-transform: uppercase;
+	font-weight:bold;
+	text-decoration: none;
+	left:17px;
+	top:2px;
+	transition: all 200ms ease-out;
+	color:transparent;
+	}
+#img:hover figcaption {
+	left:87px;
+	color:#02b8dd;
+}
+#logo a{
 	height:86px;
 	width:86px;
 	}
