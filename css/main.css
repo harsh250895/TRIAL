@@ -159,7 +159,6 @@ strong {
 	margin-left:auto;
 	margin-right:auto;
 	width: 960px;
-	height: 593px;
 }
 #header {
 	height: 86px;
@@ -316,7 +315,7 @@ figcaption {
 }
 
 #features {
-	perspective:700;
+	perspective:700px;
 	height: 100px;
 }
 
