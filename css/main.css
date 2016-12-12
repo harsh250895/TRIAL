@@ -163,7 +163,22 @@ strong {
 #header {
 	height: 86px;
 	line-height: 86px;
+	background-color:#FFF;
+	position:relative;
+	//box-shadow: 0 10px 110px -40px rgba(0,0,0,0.5);
 }
+
+#header:after {
+	content: '';
+	display:block;
+	width:80%;
+	height:8px;
+	box-shadow: 0 2px 90px rgba(0,0,0,0.50);
+	position:absolute;
+	bottom: 0;
+	left: 10%;
+	z-index: -1;
+	}
 
 #menu {
 	float: left;
@@ -187,6 +202,25 @@ strong {
 	text-decoration:none;
 	padding: 5px;
 }
+#content {
+	height:auto;
+	width:960px;
+	overflow:hidden;
+	padding-top: 80px;
+}
+#main_content{
+	width: 454px;
+	padding-left: 24px;
+	padding-right: 24px;
+	float:left;
+	font-size: 19px;
+	line-height: 28px;
+	}
+
+#sidebar {
+	width: 367px;
+	float:left;
+	}
 figure{
 	width: 86px;
 	height: 86px;
@@ -419,6 +453,7 @@ figcaption {
 #footer {
 	height:41px;
 	background-color: #e8eced;
+	clear:both;
 }
 
 #footer-1 {
