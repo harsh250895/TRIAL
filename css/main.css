@@ -263,6 +263,9 @@ input {
 	font-size: 19px;
 	line-height: 28px;
 	}
+#main_content p{
+	color:#444;
+	}
 
 #sidebar {
 	width: 367px;
@@ -274,21 +277,69 @@ input {
 	width:367px;
 	height:280px;
 	}
+#tab-2 {
+	width:367px;
+	height:280px;
+	}
+#tab-3 {
+	width:367px;
+	height:280px;
+	}
+#tab-4 {
+	width:367px;
+	height:280px;
+	}
+#tab-5 {
+	width:367px;
+	height:280px;
+	}
 #tab-1 .tab{
 	height:200px;
 	width:200px;
 	margin:83.5px 83.5px;
-	box-shadow: 0px 20px 40px -20px;
-	background-color: #ccc;
-	border-radius:5px;
+	//box-shadow: 0px 20px 40px -20px;
+	//background-color: #ccc;
+	//border-radius:5px;
+	background: url('../img/Mail3.png')no-repeat center;
 	}
-#tab-2{
+#tab-2 .tab{
+	height:200px;
+	width:200px;
+	margin:83.5px 83.5px;
+	//box-shadow: 0px 20px 40px -20px;
+	//background-color: #ccc;
+	//border-radius:5px;
+	background: url('../img/Gift.png')no-repeat center;
 	}
-#tab-3{
+#tab-3 .tab{
+        height:200px;
+	width:200px;
+	margin:83.5px 83.5px;
+	//box-shadow: 0px 20px 40px -20px;
+	//background-color: #ccc;
+	//border-radius:5px;
+	background: url('../img/Shopping.png')no-repeat center;
+						               
 	}
-#tab-4{
+#tab-4 .tab{
+	height:200px;
+	width:200px;
+	margin:83.5px 83.5px;
+	//box-shadow: 0px 20px 40px -20px;
+	//background-color: #ccc;
+	//border-radius:5px;
+	background: url('../img/Map.png')no-repeat center;
+							        
 	}
-#tab-5{
+#tab-5 .tab{	
+	height:170px;
+	width:200px;
+	margin:83.5px 83.5px;
+	//box-shadow: 0px 20px 40px -20px;
+	//background-color: #ccc;
+	//border-radius:5px;
+	background: url('../img/Settings.png')no-repeat center;
+							        
 	}
 figure{
 	width: 86px;
