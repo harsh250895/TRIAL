@@ -205,15 +205,17 @@ strong {
 #contact {
 	height:466px;
 	width:960px;
-	padding-right:31px;
-	padding-left:31px;
+	//padding-right:31px;
+	//padding-left:31px;
 	text-align:center;
 	}
 #contact p {
 	width:320px;
 	padding:0px 320px;
-	padding-top: 50px;
+	padding-top: 60px;
+	padding-bottom: 10px;
 	font-weight: bold;
+	margin:0px;
 	color #807e7e;
 	}
 #form-1 {
