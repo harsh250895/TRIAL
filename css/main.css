@@ -268,6 +268,28 @@ input {
 	width: 367px;
 	float:left;
 	}
+.tab{
+}
+#tab-1{
+	width:367px;
+	height:280px;
+	}
+#tab-1 .tab{
+	height:200px;
+	width:200px;
+	margin:83.5px 83.5px;
+	box-shadow: 0px 20px 40px -20px;
+	background-color: #ccc;
+	border-radius:5px;
+	}
+#tab-2{
+	}
+#tab-3{
+	}
+#tab-4{
+	}
+#tab-5{
+	}
 figure{
 	width: 86px;
 	height: 86px;
