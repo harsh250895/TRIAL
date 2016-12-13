@@ -255,6 +255,16 @@ input {
 	overflow:hidden;
 	padding-top: 80px;
 }
+
+#content h4{
+	width:454px;
+	padding:0px;
+	padding-left: 24px;
+	padding-right: 24px;
+	font-size:30px;
+	height: 36px;
+	text-align: center;
+	}
 #main_content{
 	width: 454px;
 	padding-left: 24px;
