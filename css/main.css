@@ -207,6 +207,40 @@ strong {
 	width:960px;
 	padding-right:31px;
 	padding-left:31px;
+	text-align:center;
+	}
+#form-1 {
+	padding-top:120px;
+	}
+
+#description input{
+	height:100px;
+	}
+#submit input{
+	width: 120px;
+	height: 40px;
+	color: #31a6ff;
+	font-weight:100;
+	font-size: 20px;
+	background-color: #fff;
+	border-radius: 50px;
+	border: solid 1px #31a6ff;
+	padding:8px;
+	transition-duration:200ms;
+	}
+#submit input:hover {
+	background-color: #31a6ff;
+	color:#fff;
+	}
+input {
+	height: 30px;
+	width: 320px;
+	padding-left:15px;
+	font-size: 17px;
+	margin-bottom:14px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	box-shadow: 1px 2px 7px rgba(0,0,0,0.1)
 	}
 #content {
 	height:auto;
