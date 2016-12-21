@@ -256,7 +256,7 @@ input {
 	height:auto;
 	width:960px;
 	overflow:hidden;
-	padding-top: 86px;
+	//padding-top: 86px;
 }
 
 #content h4{
@@ -525,7 +525,10 @@ img {
 	color:#444;
 	margin-bottom: 15px;
 	}
-
+#back-1 a{
+	text-decoration:none;
+	color:#444;
+	}
 #back-1 {
 	backface-visibility:hidden;
 	position:absolute;
@@ -557,6 +560,10 @@ img {
 #back-2 p {
 	color:#444;
 	margin-bottom: 15px;
+	}
+#back-2 a {
+	color:#444;
+	text-decoration:none;
 	}
 #back-2 {
 	backface-visibility:hidden;
@@ -590,6 +597,10 @@ img {
 #back-3 p {
 	color: #444;
 	margin-bottom: 15px;
+	}
+#back-3 a{
+	color: #444;
+	text-decoration:none;
 	}
 #back-3 {
 	backface-visibility:hidden;
