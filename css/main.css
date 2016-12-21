@@ -269,7 +269,7 @@ input {
 	text-align: center;
 	}
 #main_content{
-	width: 454px;
+	width: 545px;
 	padding-left: 24px;
 	padding-right: 24px;
 	float:left;
@@ -278,6 +278,9 @@ input {
 	}
 #main_content p{
 	color:#444;
+	font-family:TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	font-size: 19px;
+	line-height:28px;
 	}
 
 #sidebar {
@@ -287,29 +290,35 @@ input {
 .tab{
 }
 #tab-1{
-	width:367px;
+	width:287px;
 	height:280px;
+	padding-left:80px;
 	}
 #tab-2 {
-	width:367px;
+	width:287px;
 	height:280px;
+	padding-left:80px;
 	}
 #tab-3 {
-	width:367px;
+	width:287px;
 	height:280px;
+	padding-left:80px;
 	}
 #tab-4 {
-	width:367px;
+	width:287px;
 	height:280px;
+	padding-left:80px;
 	}
 #tab-5 {
-	width:367px;
+	width:287px;
 	height:280px;
+	padding-left:80px;
 	}
 #tab-1 .tab{
 	height:200px;
 	width:200px;
-	margin:83.5px 150.5px;
+	margin-top:80.5px;
+	margin-bottom:80.5px;
 	//box-shadow: 0px 20px 40px -20px;
 	//background-color: #ccc;
 	//border-radius:15px;
@@ -322,48 +331,52 @@ input {
 #tab-2 .tab{
 	height:200px;
 	width:200px;
-	margin:83.5px 150.5px;
+	margin-top:100.5px;
+	margin-bottom:80.5px;
 	//box-shadow: 0px 20px 40px -20px;
 	//background-color: #ccc;
 	//border-radius:5px;
 	background: url('../img/Gift.png')no-repeat center;
-	background-color: #ccc;
+	background-color: #e88076;
 	border-radius: 15px;
 	box-shadow: 0px 20px 40px -20px;
 	}
 #tab-3 .tab{
         height:200px;
 	width:200px;
-	margin:83.5px 150.5px;
+	margin-top:100.5px;
+	margin-bottom:80.5px;
 	//box-shadow: 0px 20px 40px -20px;
 	//background-color: #ccc;
 	//border-radius:5px;
 	background: url('../img/Shopping.png')no-repeat center;
-	background-color: #ccc;
+	background-color: #f9dd6c;
 	border-radius: 15px;
 	box-shadow: 0px 20px 40px -20px;
 	}
 #tab-4 .tab{
 	height:200px;
 	width:200px;
-	margin:83.5px 150.5px;
+	margin-top:100.5px;
+	margin-bottom:80.5px;
 	//box-shadow: 0px 20px 40px -20px;
 	//background-color: #ccc;
 	//border-radius:5px;
 	background: url('../img/Map.png')no-repeat center;
-	background-color: #ccc;
+	background-color: #61a2ce;
 	border-radius: 15px;
 	box-shadow: 0px 20px 40px -20px;
 	}
 #tab-5 .tab{	
-	height:170px;
+	height:200px;
 	width:200px;
-	margin:83.5px 150.5px;
+	margin-top:100.5px;
+	margin-bottom:80.5px;
 	//box-shadow: 0px 20px 40px -20px;
 	//background-color: #ccc;
 	//border-radius:5px;
 	background: url('../img/Settings.png')no-repeat center;
-	background-color: #ccc;
+	background-color: #ced4d8;
 	border-radius: 15px;
 	box-shadow: 0px 20px 40px -20px;
 	}
