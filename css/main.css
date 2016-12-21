@@ -113,7 +113,7 @@ h2 {
 	text-transform: uppercase;
 	text-align: center;
 }
-h3 {
+#image h3 {
 	font-size:24px;
 	height:366px;
 	color: #FFF;
@@ -164,21 +164,22 @@ strong {
 	height: 86px;
 	line-height: 86px;
 	background-color:#FFF;
-	position:relative;
+	//position:fixed;
+	//top:0;
 	//box-shadow: 0 10px 110px -40px rgba(0,0,0,0.5);
 }
 
-#header:after {
-	content: '';
-	display:block;
-	width:80%;
-	height:8px;
-	box-shadow: 0 2px 90px rgba(0,0,0,0.50);
-	position:absolute;
-	bottom: 0;
-	left: 10%;
-	z-index: -1;
-	}
+//#header:after {
+//	content: '';
+//	display:block;
+//	width:80%;
+//	height:8px;
+//	box-shadow: 0 2px 90px rgba(0,0,0,0.50);
+//	position:absolute;
+//	bottom: 0;
+//	left: 10%;
+//	z-index: -1;
+//	}
 
 #menu {
 	float: left;
@@ -255,7 +256,7 @@ input {
 	height:auto;
 	width:960px;
 	overflow:hidden;
-	padding-top: 80px;
+	padding-top: 86px;
 }
 
 #content h4{
@@ -326,6 +327,9 @@ input {
 	//background-color: #ccc;
 	//border-radius:5px;
 	background: url('../img/Gift.png')no-repeat center;
+	background-color: #ccc;
+	border-radius: 15px;
+	box-shadow: 0px 20px 40px -20px;
 	}
 #tab-3 .tab{
         height:200px;
@@ -335,7 +339,9 @@ input {
 	//background-color: #ccc;
 	//border-radius:5px;
 	background: url('../img/Shopping.png')no-repeat center;
-						               
+	background-color: #ccc;
+	border-radius: 15px;
+	box-shadow: 0px 20px 40px -20px;
 	}
 #tab-4 .tab{
 	height:200px;
@@ -345,7 +351,9 @@ input {
 	//background-color: #ccc;
 	//border-radius:5px;
 	background: url('../img/Map.png')no-repeat center;
-							        
+	background-color: #ccc;
+	border-radius: 15px;
+	box-shadow: 0px 20px 40px -20px;
 	}
 #tab-5 .tab{	
 	height:170px;
@@ -355,11 +363,9 @@ input {
 	//background-color: #ccc;
 	//border-radius:5px;
 	background: url('../img/Settings.png')no-repeat center;
-							        
-	}
-figure{
-	width: 86px;
-	height: 86px;
+	background-color: #ccc;
+	border-radius: 15px;
+	box-shadow: 0px 20px 40px -20px;
 	}
 #logo{
 	width: 367px;
@@ -401,12 +407,19 @@ figcaption {
 	overflow:hidden;
 	width:960px;
 	height:366px;
-	//padding-left: 31px;
-	//padding-right: 31px;
+//	padding-left: 31px;
+//	padding-right: 31px;
 	line-height: 366px;
 	background: #e8eced;
+	background:url('../img/slide-3.jpe') no-repeat center;
+//	position:relative;
 	}
-#image figure div{
+img {
+//	position:relative;
+//	padding-right:31px;
+//	padding-left:31px;
+	}
+/* #image figure div{
 	width:20%;
 	height:366px;
 	float:left;
@@ -483,7 +496,7 @@ figcaption {
 		left:0%;
 		}
 }
-
+*/
 #features {
 	perspective:700px;
 	height: 100px;
