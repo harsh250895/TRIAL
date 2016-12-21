@@ -595,6 +595,50 @@ figcaption {
 	text-align: center;
 	margin-top: 10px;
 	}
+#COA {
+	padding-right:31px;
+	padding-left:31px;
+	margin-top:20px;
+	height: 70px;
+	}
+.button {
+	display:block;
+	width:140px;
+	color: #31a6ff;
+	//border: 1px solid #31a6ff;
+	border-radius: 50px;
+	margin-right:19px;
+	margin-left:19px;
+	height: 42px;
+	transition-duration: 200ms
+	}
+.text {
+	display: block;
+	width: 100%;
+	line-height: 60px;
+	text-align: center;
+	text-transform: uppercase;
+	}
+#COA h5 {
+	font-size:20px;
+	margin:0px;
+	line-height: 2.0;
+	color:#31a6ff;
+	border-radius:50px;
+	background-color:#fff;
+	border: 1px solid #31a6ff;
+	transition-duration: 200ms;
+	}
+#COA a {
+	text-decoration:none;
+	}
+#COA h5:hover {
+	background-color:#31a6ff;
+	color:#fff
+	}
+//.button:hover {
+//	background-color:#31a6ff;
+//	}
 #footer {
 	height:41px;
 	background-color: #e8eced;
