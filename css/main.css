@@ -311,8 +311,12 @@ input {
 	margin:83.5px 150.5px;
 	//box-shadow: 0px 20px 40px -20px;
 	//background-color: #ccc;
-	//border-radius:5px;
+	//border-radius:15px;
 	background: url('../img/Mail3.png')no-repeat center;
+	background-color: #ccc;
+	border-radius: 15px;
+	box-shadow: 0px 20px 40px -20px;
+
 	}
 #tab-2 .tab{
 	height:200px;
@@ -489,7 +493,7 @@ figcaption {
 	position:relative;
 	transition: all 0.6s ease;
 	transform-style: preserve-3d;
-	width: 320px;
+	width: 240px;
 	height: 90px;
 	float: left;
 	text-align: center;
@@ -498,7 +502,7 @@ figcaption {
 #front-1 {
 	backface-visibility:hidden;
 	position:absolute;
-	width:320px;
+	width:240px;
 	height: 90px;
 	pointer-events:none;
 	background: url('../img/design-color_compass.png') no-repeat top center;
@@ -506,6 +510,7 @@ figcaption {
 
 #back-1 p{
 	color:#444;
+	margin-bottom: 15px;
 	}
 
 #back-1 {
@@ -523,7 +528,7 @@ figcaption {
 	position:relative;
 	transition: all 0.6s ease;
 	transform-style: preserve-3d;
-	width: 320px;
+	width: 240px;
 	height: 90px;
 	float: left;
 	text-align: center;
@@ -532,12 +537,13 @@ figcaption {
 #front-2 {
 	backface-visibility:hidden;
 	position:absolute;
-	width:320px;
+	width:240px;
 	height:90px;
 	background: url('../img/design-color_magnet.png') no-repeat top center;
 }
 #back-2 p {
 	color:#444;
+	margin-bottom: 15px;
 	}
 #back-2 {
 	backface-visibility:hidden;
@@ -554,7 +560,7 @@ figcaption {
 	position: relative;
         transition: all 0.6s ease;
 	transform-style: preserve-3d;
-	width: 320px;
+	width: 240px;
 	float: left;
 	height:90px;
 	text-align: center;
@@ -563,13 +569,14 @@ figcaption {
 #front-3 {
 	backface-visibility: hidden;
 	position: absolute;
-        width: 320px;
+        width: 240px;
 	height: 90px;
 	background: url('../img/design-color_mobile-design.png') no-repeat top center;
 }
 
 #back-3 p {
 	color: #444;
+	margin-bottom: 15px;
 	}
 #back-3 {
 	backface-visibility:hidden;
@@ -581,7 +588,13 @@ figcaption {
 #feature-3:hover{
 	transform:rotateY(180deg);
 	}
- 
+#feature-4 {
+	width: 240px;
+	float: left;
+	height:90px;
+	text-align: center;
+	margin-top: 10px;
+	}
 #footer {
 	height:41px;
 	background-color: #e8eced;
