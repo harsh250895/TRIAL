@@ -1,0 +1,115 @@
+<!doctype html><!-- html5 doctype declaration-->
+<html class="no-js" lang=""> 
+    <!-- "no-js"class is provided in order to allow more easy and explicit adding of custom styles based on whether JavaScript is disabled (.no-js) or enabled (.js).-->
+    <!-- lang="" specifies language of the content by adding the lang attribute-->
+    <head> <!-- header-->
+        <meta charset="utf-8"><!-- charset should be declared within the first 512MB of the html code in order to prevent maliscious code and hijacking-->
+        <meta http-equiv="x-ua-compatible" content="ie=edge"><!-- ensure the latest rendering engine version of IE (Internet Exploder) is being used-->
+ 
+        <title>Cubix</title>
+	
+        <meta name="description" content=""><!-- provides a description of the content-->
+        <meta name="viewport" content="width=device-width, initial-scale=1"><!-- sends a message to the browser to render as a mobile site -->
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="icon" href="img/cubix.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css"><!-- enables browsers to render all elements more consistently and in line with modern standards. -->
+        <link rel="stylesheet" href="css/main.css">
+
+       <script src="js/vendor/modernizr-2.8.3.min.js"></script><!--  Modernizr helps older browsers handle HTML5 elements -->
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]--><!-- checks the version of the browser and if outdated sends a message to the user to update the browser-->
+
+        <!-- Add your site or application content here -->
+       <div id="wrapper">
+	<div id="header">
+		<div id="logo">
+		 <a href="index.html">
+		  <div id="name">Wrong Way</div></a>
+		<map name="cube">
+			<area shape="rect" coords="46,45,1,1" href="index.html"/>
+		</map>
+		</div>
+		<div id="menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="products.html">Products</a></li>
+          <li><a href="flight.html">Flight Search</a></li>
+          <li><a href="track.html">Track</a></li>  
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+		</div>
+	</div>
+		
+	
+	<div id="contact">
+		<p>Select the origin and destination of your flight</p>
+		<form>
+     
+			<div id="form-1">
+        <h5>Origin</h5>
+				<select name="origin" required="">
+            <option value="nyc"><p> New York (NYC), USA </p></option>
+			      <option value="chs"><p> Charleston (CHS), USA </p></option>
+			      <option value="atl"><p> Atlanta (ATL), USA </p></option> 
+			      <option value="chi"><p> Chicago (CHI), USA </p></option>
+			      <option value="mia"><p> Miami (MIA), USA </p></option>
+			      <option value="cvg"><p> Cincinnati (CVG), USA </p></option>
+			      <option value="slc"><p> Salt Lake City (SLC), USA </p></option>
+            </select>
+			</div>
+
+			<div id="form">
+        <h5>Destination</h5>
+				<select name="origin" required="">
+            <option value="nyc"><p> New York (NYC), USA </p></option>
+			      <option value="chs"><p> Charleston (CHS), USA </p></option>
+			      <option value="atl"><p> Atlanta (ATL), USA </p></option> 
+			      <option value="chi"><p> Chicago (CHI), USA </p></option>
+			      <option value="mia"><p> Miami (MIA), USA </p></option>
+			      <option value="cvg"><p> Cincinnati (CVG), USA </p></option>
+			      <option value="slc"><p> Salt Lake City (SLC), USA </p></option>
+            </select>
+			</div>
+			<div id="submit">
+				<input type="submit" name="submit"
+				value="Find">
+			</div>
+		</form>
+	</div>
+	<div id="footer">
+			<div id="footer-1">
+				<p>Copyright 2017 Wrong Way. All rights reserved.</p>
+			</div>
+			<div id="footer-2">
+				<ul>
+					<li><h5>Wrong Way</h5></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">What we do</a></li>
+					<li><a href="#">Careers</a></li>
+				</ul>
+			     
+			</div>
+		
+	</div>
+	</div>	
+        <!-- Local Jquery is included in order to facilitate offline development -->
+        <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <!-- an optimized version of the Google Universal Analytics tracking code is included-->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-86088603-1','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
+</html>
